@@ -1,0 +1,29 @@
+# Logs
+frontend/logs
+frontend/l*.log
+frontend/lnpm-debug.log*
+frontend/lyarn-debug.log*
+frontend/lyarn-error.log*
+frontend/lpnpm-debug.log*
+frontend/llerna-debug.log*
+
+frontend/lnode_modules
+frontend/ldist
+frontend/ldist-ssr
+frontend/l*.local
+
+# Editor directories and files
+frontend/l.vscode/*
+frontend/l!.vscode/extensions.json
+frontend/l.idea
+frontend/l.DS_Store
+frontend/l*.suo
+frontend/l*.ntvs*
+frontend/l*.njsproj
+frontend/l*.sln
+frontend/l*.sw?
+
+package-lock.json
+
+backend/.env
+backend/package-lock.json
