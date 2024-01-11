@@ -32,7 +32,7 @@ router.route('/').post(async (req, res) => {
     const { prompt } = req.body
 
     const aiResponse = await replicate.run(
-      "stability-ai/sdxl:39ed52f2a78e934b3ba6e2a89f5b1c712de7dfea535525255b1aa35c5565e08b",
+      "ai-forever/kandinsky-2.2:ea1addaab376f4dc227f5368bbd8eff901820fd1cc14ed8cad63b29249e9d463",
       {
         input: {
           width: 1024,
